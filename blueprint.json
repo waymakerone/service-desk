@@ -4,17 +4,52 @@
   "description": "Full-featured service desk with agent console, shared inbox, ticket management, SLA tracking, knowledge base, and customer portal — powered by Commander Email, Tasks, Tables, and Journeys",
   "category": "tool",
   "framework": "react",
-  "tags": ["react", "typescript", "helpdesk", "support", "tickets", "knowledge-base", "sla", "shared-inbox", "customer-portal"],
+  "tags": [
+    "react",
+    "typescript",
+    "helpdesk",
+    "support",
+    "tickets",
+    "knowledge-base",
+    "sla",
+    "shared-inbox",
+    "customer-portal"
+  ],
   "is_featured": true,
   "difficulty": "advanced",
   "estimated_time": "8-10 hours",
-  "commander_tools": ["Email", "Contacts", "Tables", "Tasks", "Calendar", "Journeys", "Docs", "Metrics"],
+  "commander_tools": [
+    "Email",
+    "Contacts",
+    "Tables",
+    "Tasks",
+    "Calendar",
+    "Journeys",
+    "Docs",
+    "Metrics"
+  ],
   "app_type": "ex",
   "sections": [
-    { "id": "ticket-queue", "name": "Ticket Queue & Console", "purpose": "Agent inbox with ticket management, priority sorting, and assignment" },
-    { "id": "sla-email", "name": "SLA & Email Integration", "purpose": "SLA tracking with breach alerts, email-to-ticket, and canned responses" },
-    { "id": "knowledge-base", "name": "Knowledge Base & Help Center", "purpose": "Public knowledge base with search, categories, and customer ticket portal" },
-    { "id": "dashboard", "name": "Dashboard & CSAT", "purpose": "Ticket metrics, SLA compliance, resolution times, and satisfaction scores" }
+    {
+      "id": "ticket-queue",
+      "name": "Ticket Queue & Console",
+      "purpose": "Agent inbox with ticket management, priority sorting, and assignment"
+    },
+    {
+      "id": "sla-email",
+      "name": "SLA & Email Integration",
+      "purpose": "SLA tracking with breach alerts, email-to-ticket, and canned responses"
+    },
+    {
+      "id": "knowledge-base",
+      "name": "Knowledge Base & Help Center",
+      "purpose": "Public knowledge base with search, categories, and customer ticket portal"
+    },
+    {
+      "id": "dashboard",
+      "name": "Dashboard & CSAT",
+      "purpose": "Ticket metrics, SLA compliance, resolution times, and satisfaction scores"
+    }
   ],
   "design": {
     "colorPalette": "Support — navy (#001126) primary, gold (#A49886) accent, blue (#3D5B6C) secondary, sand (#F5F5F0) background",
@@ -25,5 +60,12 @@
   "starter_prompt": "I want to build a service desk using the WaymakerOS Service Desk blueprint. Use host_blueprint_get with blueprint_id \"service-desk\" to get the full blueprint, then guide me through building it.",
   "seo_title": "Service Desk App Template — Build with AI | WaymakerOS",
   "seo_description": "Build a custom service desk with ticket management, SLA tracking, and knowledge base. Replaces Zendesk — built on your data.",
-  "seo_keywords": ["service desk template", "helpdesk app builder", "customer support tool"]
+  "seo_keywords": [
+    "service desk template",
+    "helpdesk app builder",
+    "customer support tool"
+  ],
+  "topics": [
+    "customer-success"
+  ]
 }
